@@ -89,7 +89,7 @@ You should be familiar with the Raspberry Pi [pinout](./images/pinout.png). We w
         - If the login is successful, both an SSH terminal interface and a SFTP window should pop up
     4. Copy the following command into the SSH terminal (it will take quite a bit of time to complete all of the operations): 
         
-        `sudo apt update && sudo apt upgrade -y && sudo apt install git -y && cd / && git clone https://github.com/CoolerGalaxy/Barkinator && sudo bash /Barkinator/setup.sh && sudo reboot`
+        `sudo apt update && sudo apt upgrade -y && sudo apt install git -y && cd / && sudo git clone https://github.com/CoolerGalaxy/Barkinator && sudo bash /Barkinator/setup.sh && sudo reboot`
 
         **Note:** A right click in the SSH terminal to paste the code.
 
